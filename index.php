@@ -1,7 +1,5 @@
 <?php
-require "src/functions.php";
+require "src/Car.php";
 
-$car = new Car();
-$car->carGo(1, 10,  'вперед', 80);
-
-
+$NIVA = new Cars\Car(5, 10, 1);
+$NIVA->carGo();
